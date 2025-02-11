@@ -7,16 +7,15 @@ Este projeto foi desenvolvido para aprimorar o conhecimento sobre PWM usando o *
 1. **LED AZUL** GPIO 12
 2. **RESISTOR** 330 ohms
 3. **Microcontrolador Raspberry Pi Pico W**
-4. **SERVO MOTOR**
+4. **SERVO MOTOR** GPIO 22
 
 ## Funcionalidade
 
-Ao iniciar o programa, o servo motor movientará para o angulo de 180 graus, após cinco segundos, mudará para posição de 90 graus e passando mais cinco segundos mudará para a posição de 02 graus. Posteiormente, de forma suave, entrará em um ciclo infinito de movimentar de 0 graus a 180 e virse e versa.
+Ao iniciar o programa, o servo motor movientará para o angulo de 180 graus, após cinco segundos, mudará para posição de 90 graus e passando mais cinco segundos mudará para a posição de 0 graus. Posteiormente, de forma suave, entrará em um ciclo infinito de movimentar de 0 graus a 180 e virse e versa.
 
 ### Teste do LED AZUL
 
 caso queira testar o PWM do led azul, basta descomentar a linha com a rotina efeito_pisca_led(slice_led, canal_led); dentro do while(true);
-
 
 
 ### Como Usar
@@ -42,4 +41,4 @@ Após experimento realizado na BitDogLab, foi possível perceber que o LED varia
 ## Demonstração
 
 <!-- TODO: adicionar link do vídeo -->
-Vídeo demonstrando as funcionalidades da solução implementada: [Demonstração](https://youtu.be/pDz5KutL2i4)
+Vídeo demonstrando as funcionalidades da solução implementada: [Demonstração](https://youtu.be/0g13mYVv8dI)

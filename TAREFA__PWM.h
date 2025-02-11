@@ -1,5 +1,5 @@
-#ifndef SERVO_LED_H
-#define SERVO_LED_H
+#ifndef Tarefa_PWM
+#define Tarefa_PWM
 
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
@@ -17,4 +17,4 @@ void movimentacao_suave_servo(uint slice, uint canal);
 void definir_brilho_led(uint slice, uint canal, uint duty);
 void efeito_pisca_led(uint slice, uint canal);
 
-#endif // SERVO_LED_H
+#endif // Tarefa_PWM
