@@ -1,4 +1,4 @@
-# Atividade - Interrupções
+# Atividade - PWM
 
 Este projeto foi desenvolvido para aprimorar o conhecimento sobre PWM usando o **Raspberry Pi Pico W**. Foi realizado com o auxílio do simulador de eletrônica **Wokwi** e da placa **BitDogLab**.
 
